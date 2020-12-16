@@ -19,7 +19,6 @@ print(banner())
 
 Interface = input("Enter Your Interface: \n")
 NewMac = input("Enter New Mac: \n")
-print("......................................")
 print("Changing Your Mac Address " + Interface + "To" + NewMac)
 
 subprocess.call(["sudo ifconfig", Interface, "down"])
